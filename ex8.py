@@ -1,0 +1,12 @@
+reference = input("Saisir le numero de reference : ")
+designation = input("Sasir la designation : ")
+quantite = int(input("Sasir la quantite : "))
+prix_unitaire = float(input("Sasir le prix : "))
+montant = quantite*prix_unitaire
+print("                                     STE ALI BABA                                            ")
+print("------------------------------------------------------------------------------------------------")
+print("                                     Fiche Produit                                           ")
+print("------------------------------------------------------------------------------------------------")
+print("Référence :",reference,"\nDésignation :",designation,"\nPrix Unitaire :",prix_unitaire,"\nQuantité :",quantite)
+print("------------------------------------------------------------------------------------------------")
+print("                                     Montant :",montant,"DH                                        ")
